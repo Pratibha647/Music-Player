@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: burlywood; */
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(52,9,121,1) 57%, rgba(0,212,255,1) 100%);
+    color: wheat;
+
+}
+
+#home{
+    display: flex;
+
+}
+#library{
+    display:flex;
+}
+#create_playlist{
+    display:flex;
+}
+
+.liked{
+    display:flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+       
+}
+
+.logo p{
+    font-family: 'Audiowide', sans-serif;
+    font-size: 5vh;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+}
+
+.navbar div img{
+    width:50px;
+}
+
+/*chatgpt*/
+
+.navbar {
+    /* Add some bottom margin to create space */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.playlist {
+    /* Add some top margin to create space */
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    /* align-items: center; */
+}
+
+.back-button,
+.forward-button {
+    margin-left: 10px; /* Add some margin to separate the buttons */
+}
+
+
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.buttons button {
+    border-radius: 46%;
+    height: 60px;
+    width: 60px;
+}
+
+.buttons button img{
+    height: 50px;
+    width: 50px;
+}
+
+.sidebar{
+     width: 20vw;
+
+}
+
+.body_div{
+    display: flex;
+
+}
+
+.search_bar input{
+    width: 25vw;
+    height: 4.5vh;
+    border-radius: 20px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(112, 114, 94); */
+    width: 80vw;
+}
+
+.header{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.bell{
+    display: flex;
+    margin: 25px;
+    padding-left: 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo1{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.profile{
+    display: flex;
+    margin-right: 40px;
+    border: solid 1px black;
+    color: black;
+    padding:5px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+
+}
+
+.profile img{
+    padding: 10px;
+
+}
+
+.body_bar h2{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 45px;
+}
+
+.part1 img{
+    width:200px;
+    height: 200px;
+}
+
+.part2 img{
+    width:200px;
+}
+
+.container1{
+    display:flex;
+}
+
+.part2{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.part1{
+    text-align: center;
+}
+
+.player_footer{
+    position: absolute;
+    position: fixed;
+    bottom: 2px;
+    width: 100vw;
+    height: 13vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_left{
+    display: flex;
+}
+
+.foot_left img {
+    width: 100px;
+    height: 100px;
+}
+
+.part3{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.part3 img{
+    width: 200px;
+
+}
+
+.part4{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.part4 img {
+    width: 200px;
+    height: 200px;
+}
+
+.body_left h2{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 40px;
+}
+
+.pic1 img{
+    width:300px;
+    height: 300px;
+    text-align: center;
+    }
+
+.pic2 img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.pic3 img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+
+#play_button{
+    margin: auto;
+}
+
+.body_left h2{
+    text-decoration: underline;
+    display: flex;
+}
+
+.pic1{
+    display: flex;
+    padding:50px;
+    border-radius: 50%;
+}
+.pic1 h4{
+    display: flex;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: 'Glass Antiqua', cursive;
+    text-decoration: wavy;
+   
+}
+
+.pic2{
+    display: flex;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.pic2 h4{
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: 'Glass Antiqua', cursive;
+    text-decoration: wavy;
+}
+
+.pic3{
+    display: flex;
+    padding: 50px;
+    border-radius: 50%;
+}
+ 
+.pic3 h4{
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: 'Glass Antiqua', cursive;
+    text-decoration: wavy;
+}
+
+.pic1 p{
+    padding-left: 40px;
+}
+
+.pic2 p{
+    padding-left: 40px;
+
+}
+
+.pic3 p{
+    padding-left: 40px;
+}
+
+.mainbar{
+    margin-left: 40px;
+}
+
