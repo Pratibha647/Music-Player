@@ -320,3 +320,28 @@ body{
     margin-left: 40px;
 }
 
+#side_img{
+    width: 40px;
+    height: 40px;
+}
+
+#home, #library, #create_playlist, .liked{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#home p, #library p, #create_playlist p, .liked p {
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.playlist h4 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.playlist_text p {
+    font-size: 21px;
+    padding-left: 20px;
+}
